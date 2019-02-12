@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Penguin Runner</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+  <div id="game-container"></div>
+
+  <!-- phaser 3.15.1 -->
+  <script src="js/phaser3.15.1/phaser.js"></script>
+  <script src="js/phaser3.15.1/phaser.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/phaser@3.14.0/dist/phaser.js"></script> -->
+
+  <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
+
+
+
+<!-- This section is left here just in case one wants
+ to update the game and divide the code accordingly -->
+
+ <!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Penguin runner</title>
+     <script type="text/javascript" src="js/phaser.js"></script>
+    <script type="text/javascript" src="js/Boot.js"></script>
+    <script type="text/javascript" src="js/Preloader.js"></script>
+    <script type="text/javascript" src="js/MainManu.js"></script>
+    <script type="text/javascript" src="js/Level1.js"></script>
+
+  </head>
+  <body>
+      <script type="text/javascript">
+          window.Onload = function(){
+            var game = new Phaser.Game(800,600,Phaser.CANVAS,'');
+
+            game.static.add('Boot', Game.Boot);
+            game.static.add('Preloader', Game.Preloader);
+            game.static.add('MainManu', Game.MainMenu);
+            game.static.add('Level1', Game.Level1);
+
+            game.static.start('Boot');
+
+          };
+
+      </script>
+  </body>
+</html> -->
